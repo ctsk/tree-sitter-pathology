@@ -16,3 +16,12 @@ Tree-Sitter does emit a warning when `repeat()` or `optional()` is used in a non
 ### Notes
 
 There's some odd interactions when repeat / optional are wrapped into `token()`
+
+- token(repeat(...)) bug [1]
+- empty top-level string bug [2]
+- token(repeat(...)) / token(optional(...)) bug [3]
+
+
+[1] https://github.com/tree-sitter/tree-sitter/issues/1271
+[2] https://github.com/tree-sitter/tree-sitter/issues/1111
+[3] https://github.com/tree-sitter/tree-sitter/issues/1156
