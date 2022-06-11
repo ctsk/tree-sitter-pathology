@@ -11,8 +11,8 @@ Tree-Sitter does not warn when a regex matches the empty string
 
 Tree-Sitter does emit a warning when `repeat()` or `optional()` is used in a non-top-level rule
 
+---
+
 ### Notes
 
 There's some odd interactions when repeat / optional are wrapped into `token()`
-
-- 
